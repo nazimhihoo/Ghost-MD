@@ -10,13 +10,12 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "923047560644"
+global.ownernomer = "923701335041"
 global.ownername = "NAZIM-X"
-global.ytname = "YT: None"
-global.socialm = "GitHub: https://github.com/ayodejibot"
+global.socialm = "GitHub: https://github.com/nazimhihoo"
 global.location = "Africa/Lagos"
 
-global.ownernumber = '923047560644'  //creator number
+global.ownernumber = '923701335041'  //creator number
 global.ownername = 'NAZIM-X' //owner name
 global.botname = 'nazim-x ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
 
@@ -26,20 +25,19 @@ global.author = 'Nazim-X\n\nContact: +923047560677'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "Youtube None."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VbBA2J7JJhzWzlTBDq16'
+global.link = 'https://files.catbox.moe/fhk2br.jpg'
 
 //custom prefix
 global.prefa = ['','!','.','#','&']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
 global.autoswview = true //auto view status/story
 
@@ -68,8 +66,6 @@ global.mess = {
     wait: 'In process... ',    
     error: 'Error!',
 }
-
-global.thumb = fs.readFileSync('./XeonMedia/thumb.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
